@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>U&G Luxury Events Milano | Fashion Week & High-End Events</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Montserrat:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header id="navbar">
+        <div class="nav-container">
+            <a href="#" class="brand-logo">
+                <span class="logo-main">U&G</span>
+                <span class="logo-sub">LUXURY EVENTS</span>
+                <span class="logo-city">MILANO</span>
+            </a>
+            
+            <nav class="nav-links" id="nav-links">
+                <a href="#about">L'Agenzia</a>
+                <a href="#services">Servizi</a>
+                <a href="#showcase">Fashion Week</a>
+                
+            </nav>
+
+            <a href="#contact" class="btn-gold-outline nav-cta">Contact</a>
+
+            <button class="hamburger" id="hamburger" aria-label="Toggle Navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <!-- Inserire il video teaser principale qui -->
+        <video class="hero-video" autoplay muted loop playsinline poster="homepage.jpg">
+            <source src="video-hero.mp4" type="video/mp4">
+        </video>
+
+        <div class="hero-content">
+            <p class="subtitle-tag">MILANO FASHION WEEK & EXCLUSIVE EVENTS</p>
+            <h1>Alta Moda. Eventi Unici.</h1>
+            <p class="hero-desc">Sfilate, galà privati e gestione integrata di uffici stampa nel cuore della capitale della moda.</p>
+            <div class="hero-actions">
+                <a href="#showcase" class="btn-gold">Esplora gli Eventi</a>
+                <a href="#contact" class="btn-glass">Pianifica il tuo Evento</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brand Philosophy / About Section -->
+    <section id="about" class="about-section">
+        <div class="container grid-2">
+            <div class="about-text">
+                <p class="section-tag">CHI SIAMO</p>
+                <h2>Creiamo Esperienze Insuperabili per i Brand più Prestigiosi</h2>
+                <p class="text-lead">U&G Luxury Events Milano coordina e produce eventi di alto profilo. Dalle sfilate della Milano Fashion Week ai grandi galà nelle cornici più iconiche d'Italia, come l'Hotel Principe di Savoia e le terrazze panoramiche con vista Duomo.</p>
+                <p>Curiamo ogni dettaglio: regia, backstage, accoglienza VIP, ufficio stampa e pubbliche relazioni, trasformando ogni appuntamento in un punto di riferimento per l'alta moda internazionale.</p>
+                
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <span class="stat-num">100+</span>
+                        <span class="stat-label">Sfilate & Runway Show</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-num">Top</span>
+                        <span class="stat-label">Location Esclusive</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image-wrapper">
+                <div class="image-frame">
+                    <!-- Placeholder Immagine Luxury / Principe di Savoia vibe -->
+                    <img src="homepage1.jpg" alt="Sfilata di Alta Moda a Milano" class="img-responsive">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <p class="section-tag">I NOSTRI SERVIZI</p>
+                <h2>Soluzioni Luxury Su Misura</h2>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">01</div>
+                    <h3>Fashion Week Runway</h3>
+                    <p>Produzione completa di sfilate di moda: casting modelle, scenografia, luci, sound design, direzione di regia e gestione backstage.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">02</div>
+                    <h3>Ufficio Stampa & PR</h3>
+                    <p>Relazioni pubbliche di alto livello, accreditamento media, gestione celebrity, influenze di settore e copertura stampa internazionale.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">03</div>
+                    <h3>Location Scouting</h3>
+                    <p>Accesso riservato a palazzi storici, hotel a 5 stelle lusso, rooftop esclusivi e venue segrete nel Quadrilatero della Moda.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">04</div>
+                    <h3>Gala & Private Parties</h3>
+                    <p>Organizzazione integrata di cene di gala, cocktail eseguiti da chef stellati e party esclusivi post-sfilata per VIP e buyer.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Showcase & Gallery Section -->
+    <section id="showcase" class="showcase-section">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-tag">HIGHLIGHTS & SHOWCASE</p>
+                <h2>I Nostri Ultimi Eventi a Milano</h2>
+            </div>
+
+            <div class="gallery-grid">
+                <!-- Video Item 1 (Principe di Savoia) -->
+                <div class="gallery-card video-card">
+                    <video autoplay muted loop playsinline>
+                        <source src="hotelsavoia.MP4" type="video/mp4">
+                    </video>
+                    <div class="card-overlay">
+                        <span class="location-tag">Hotel Principe di Savoia</span>
+                        <h3>Milano Luxury Fashion Week</h3>
+                    </div>
+                </div>
+
+                <!-- Video Item 2 (Roof Terrace Duomo) -->
+                <div class="gallery-card video-card">
+                    <video autoplay muted loop playsinline>
+                        <source src="martini.MP4" type="video/mp4">
+                    </video>
+                    <div class="card-overlay">
+                        <span class="location-tag">Terrazza Martini Duomo</span>
+                        <h3>Exclusive Rooftop Showcase</h3>
+                    </div>
+                </div>
+
+                <!-- Video Item 3 (Backstage & Prep) -->
+                <div class="gallery-card video-card">
+                    <video autoplay muted loop playsinline>
+                        <source src="hotelsavoiabs.MP4" type="video/mp4">
+                    </video>
+                    <div class="card-overlay">
+                        <span class="location-tag">Backstage & Beauty</span>
+                        <h3>Couture Details & Press Office</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Consultation Section -->
+    <section id="contact" class="contact-section">
+        <div class="container grid-2">
+            <div class="contact-info">
+                <p class="section-tag">CONTATTI E PRENOTAZIONI</p>
+                <h2>Pianifichiamo la Tua Prossima Presentazione</h2>
+                <p>Che si tratti del prossimo show della Milano Fashion Week o di una presentazione privata riservata, il nostro team è a disposizione.</p>
+                
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <strong>HQ Milano:</strong>
+                        <p>Quadrilatero della Moda, Milano</p>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Instagram:</strong>
+                        <p><a href="https://instagram.com/ueg_luxuryevents_milano" target="_blank">@ueg_luxuryevents_milano</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Email:</strong>
+                        <p>ufficiostampauggi@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name">Nome o Brand</label>
+                    <input type="text" id="name" required placeholder="Es. Maison Versace / Nome">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Aziendale</label>
+                    <input type="email" id="email" required placeholder="nome@brand.com">
+                </div>
+                <div class="form-group">
+                    <label for="event-type">Tipologia di Evento</label>
+                    <select id="event-type" required>
+                        <option value="" disabled selected>Seleziona un'opzione</option>
+                        <option value="fashion-week">Sfilata Fashion Week</option>
+                        <option value="press-office">Ufficio Stampa / Press Day</option>
+                        <option value="gala">Cena di Gala / Party Privato</option>
+                        <option value="other">Altro</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Dettagli del Progetto</label>
+                    <textarea id="message" rows="4" placeholder="Descrivi le tue esigenze, data presunta e budget indicativo..."></textarea>
+                </div>
+                <button type="submit" class="btn-gold full-width">Invia Richiesta Riservata</button>
+            </form>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <h3>U&G LUXURY EVENTS MILANO</h3>
+                <p>High Fashion Event Production & Press Office</p>
+            </div>
+            <div class="footer-copy">
+                <p>&copy; 2026 U&G Luxury Events Milano. Tutti i diritti riservati.</p>
+            </div>
+        </div>
+    </footer>
+        <!-- BANNER COOKIE GDPR -->
+<div id="cookie-banner" class="cookie-banner" style="display: none;">
+  <div class="cookie-container">
+    <div class="cookie-text">
+      <h3>🍪 Informativa sui Cookie</h3>
+      <p>
+        Questo sito utilizza cookie tecnici necessari al funzionamento e, previo tuo consenso, cookie analitici e di profilazione per offrire un'esperienza personalizzata e contenuti in linea con le tue preferenze. 
+        Puoi accettare tutti i cookie, rifiutare quelli non necessari o personalizzare le tue scelte. Per saperne di più consulta la nostra 
+        <a href="/privacy-policy.html" target="_blank">Privacy Policy</a> e la <a href="/cookie-policy.html" target="_blank">Cookie Policy</a>.
+      </p>
+    </div>
+    <div class="cookie-buttons">
+      <button id="btn-accept-all" class="cookie-btn btn-accept">Accetta Tutti</button>
+      <button id="btn-reject-all" class="cookie-btn btn-reject">Rifiuta Non Necessari</button>
+      <button id="btn-customize" class="cookie-btn btn-custom">Personalizza</button>
+    </div>
+  </div>
+</div>
+
+<!-- MODALE PERSONALIZZAZIONE COOKIE -->
+<div id="cookie-modal" class="cookie-modal" style="display: none;">
+  <div class="cookie-modal-content">
+    <button id="cookie-modal-close" class="cookie-modal-close" aria-label="Chiudi">&times;</button>
+    <h2>Gestione Preferenze Cookie</h2>
+    <p>Scegli quali categorie di cookie desideri autorizzare:</p>
+    
+    <div class="cookie-group">
+      <div class="cookie-group-header">
+        <label for="chk-necessary"><strong>Cookie Tecnici e Necessari</strong></label>
+        <input type="checkbox" id="chk-necessary" checked disabled />
+      </div>
+      <p>Indispensabili per il corretto funzionamento del sito e per memorizzare le tue preferenze di consenso.</p>
+    </div>
+
+    <div class="cookie-group">
+      <div class="cookie-group-header">
+        <label for="chk-analytics"><strong>Cookie Analitici</strong></label>
+        <input type="checkbox" id="chk-analytics" />
+      </div>
+      <p>Utilizzati per raccogliere dati statistici anonimi sull'uso e sulle prestazioni del sito.</p>
+    </div>
+
+    <div class="cookie-group">
+      <div class="cookie-group-header">
+        <label for="chk-marketing"><strong>Cookie di Profilazione e Marketing</strong></label>
+        <input type="checkbox" id="chk-marketing" />
+      </div>
+      <p>Servono a mostrare annunci e contenuti pubblicitari personalizzati in base ai tuoi interessi.</p>
+    </div>
+
+    <div class="cookie-modal-footer">
+      <button id="btn-save-preferences" class="cookie-btn btn-accept">Salva Preferenze</button>
+    </div>
+  </div>
+</div>
+
+<!-- PULSANTE PER RIAPRIRE LE PREFERENZE (OBBLIGATORIO) -->
+<button id="btn-cookie-trigger" class="cookie-trigger" title="Gestisci Cookie" aria-label="Gestisci Preferenze Cookie">
+  🍪
+</button>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
